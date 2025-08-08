@@ -78,19 +78,6 @@ pip install -r requirements.txt
 ### 4. Run Jupyter Notebooks
 Open the desired `.ipynb` file in Jupyter or Colab and run the cells to train, test, and visualize model performance.
 
----
-
-## 📊 Results Overview
-| **Model**               | **Timeframe** | **RMSE** | **Accuracy** |
-|------------------------|---------------|----------|--------------|
-| SVR                    | Weekly        | 3.20     | 99.15%       |
-| GRU                    | Monthly       | 8.91     | 88.91%       |
-| LSTM                   | Weekly        | 4.50     | 91.78%       |
-| XGBoost                | Monthly       | 2.95     | 99.52%       |
-| GRU + XGBoost          | Weekly        | 11.80    | 86.90%       |
-| LSTM + XGBoost         | Monthly       | 9.54     | 87.94%       |
-| MultiModal (Carbon)    | Weekly        | 238.20   | 89.00%       |
-| GRU (Carbon)           | Monthly       | 143.86   | 93.17%       |
 
 ---
 
